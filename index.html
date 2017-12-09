@@ -8,10 +8,13 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="stylesheet" href="css/app.css"/>
+<link rel="stylesheet" href="css/mobile.css"/>
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" href="css/font-awesome.min.css"/>
 <link rel="stylesheet" href="css/slick.css"/>
 <link rel="stylesheet" href="css/slick-theme.css"/>
+<link rel="stylesheet" href="css/owl.carousel.css"/>
+<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<title>Index</title>
 </head>
 <body>
@@ -210,7 +213,7 @@
 				<p class="copyright">TM & © 2017 Maxima Pictures. Entertainment Inc. All rights reserved.</p>
 			</div>
 		</div>
-		<div class="navbar-right cfooter">
+		<div class="navbar-right cfooter mfooter">
 			<div class="navbar-header">
 				<ul class="sosmed">
 					<li><a href="#" title=""><i class="fa fa-facebook" aria-hidden="true"></a></i></li>
@@ -234,6 +237,7 @@
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -241,7 +245,33 @@ $(document).ready(function(){
 	  infinite: true,
 	  speed: 300,
 	  slidesToShow: 1,
-	  adaptiveHeight: true
+	  adaptiveHeight: true,
+	  rtl: true,
+	  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
 	});
 	$(".center").slick({
         slidesToShow: 5,

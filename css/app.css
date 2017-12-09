@@ -12,29 +12,6 @@ body,html {
     margin: 0;
 }
 
-@media screen and (max-width: 480px) {
-
-    .head-movie .navbar {
-	   text-align: center;
-	}
-
-	.content-body {
-		padding-top: 50px !important;
-	}
-
-	.img-c {
-		padding-top: 50px !important;
-	}
-	.img-c img {
-		height: 100% !important;
-		margin: 0 auto;
-	}
-}
-
-.img-responsive {
-	margin: 0 auto;
-}
-
 .pd-t-30 {
 	padding-top:30px;
 }
@@ -287,6 +264,7 @@ h3.h3 {
 
 .footer {
     width: 100%;
+    height: auto;
     background-color: #191919;
     padding-top: 30px;
     margin-top: 20px;
