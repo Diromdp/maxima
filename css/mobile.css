@@ -20,13 +20,16 @@
 
 
 @media screen and (max-width: 736px) and (min-width:320px) {
+	.head-movie .navbar {
+		text-align: center;
+	}
 
 	h3.title-profil {
 		width: 55%;
 	}
 
-	.cmovie h3 {
-		width: 80%;
+	.e-movie {
+		width: 80% !important;
 	}
 	.cnews h3 {
 		width: 20%;
