@@ -1,10 +1,12 @@
 @font-face {
-    font-family: myriadpro-regular;
-    src: url(fonts/MYRIADPROREGULAR.woff);
+    font-family: "Helvetica-Neue";
+    src: url(/fonts/helveticaneue-light-webfont.woff) format("woff");
 }
 
 body {
-	font-family: myriadpro-regular !important;
+	font-family: "Helvetica-Neue",Helvetica,"Century Gothic",Arial,"Nimbus Sans L",sans-serif !important;
+    color: #333;
+    font-size: 13px;
 }
 
 body,html {
@@ -17,10 +19,10 @@ body,html {
 
 .owl-theme .owl-nav {
 	position: absolute;
-	top: 0;
 	right: 0;
 	left: 0;
-	margin-top: 380px !important;
+	bottom: 650px;
+	
 }
 .owl-main-1 .owl-nav .owl-prev, .owl-main-1 .owl-nav .owl-next {
 	position: absolute;	
@@ -35,7 +37,7 @@ body,html {
 }
 
 .owl-theme .owl-nav [class*='owl-'] {
-	font-size: 55px !important;
+	font-size: 100px !important;
 	background: transparent !important;
 }
 
@@ -177,22 +179,30 @@ body,html {
 }
 
 .bplay {
-	background-color: #6f7174;
-    opacity: 0.5;
-    border-radius: 200px;
-    width: 300px;
-    height: 300px;
-    display: block;
-    margin: 0 auto;
-    padding-top: 80px;
-    margin-top: 260px;
+	background-color: #666;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding-top: 30px;
+    padding-left: 20px;
     font-size: 100px;
-    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
     cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
 }
 
 .bplay .fa {
 	color: #fff !important;
+}
+
+.itm-c .mhome:hover .bplay{
+	opacity: 0.7;
 }
 
 
@@ -201,6 +211,7 @@ body,html {
 	left: 0px;
 	bottom: 0px;
 	height:100%;
+	cursor:pointer;
 	width:100%;
 }
 
@@ -208,10 +219,18 @@ body,html {
 	background-color: #333333;
 	position: absolute;
 	bottom: 0;
-	padding: 30px;
-	font-size: 23px;
-	color: #fff;
+	padding: 0px 10px 0px 10px;
+	color: #fefefe;
 }
+
+.title-movie h2 {
+	font-size: 3.6em;
+	margin-top: 5px;
+}
+.title-movie p {
+	font-size: 1.125em !important;
+}
+
 .img-list img{
 	padding: 0px;
 	margin: 0px;
