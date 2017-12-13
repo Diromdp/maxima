@@ -21,12 +21,41 @@
 
 @media screen and (max-width: 667px) and (min-width:320px) {
 
+	.owl-main-2 .owl-nav {
+		top:20px !important;
+	}
+
+	.owl-main-2 .owl-nav .owl-prev {
+	    left: 10px !important;
+	}
+
+	.owl-main-3 .owl-nav .owl-prev {
+	    left: 10px !important;
+	}
+
+	.owl-main-3 .owl-nav [class*='owl-'] {
+		background: transparent !important;
+		color: #fff !important;
+	}
+
+	.owl-main-2 .owl-nav [class*='owl-'] {
+		background: transparent !important;
+		color: #fff !important;
+	}
+
+	.owl-main-3 .owl-nav .owl-next {
+		right: 0px !important;
+	}
+	.owl-main-2 .owl-nav .owl-next {
+		right: 0px !important;
+	}
+
 	.content-body {
 		padding-top: 50px !important;
 	}
 
 	.owl-theme .owl-nav [class*='owl-'] {
-		font-size: 30px !important;
+		font-size: 70px !important;
 	}
 
 	.owl-theme .owl-nav {
@@ -123,6 +152,7 @@
 	.owl-main-1 .owl-theme .owl-nav [class*='owl-'] {
 		font-size: 50px !important;
 	}
+	
 
 	.owl-theme .owl-nav {
 		bottom: 450px !important;
