@@ -128,6 +128,12 @@
 		bottom: 450px !important;
 	}
 
+	.bplay {
+		height: 150px !important;
+	    width: 150px !important;
+	    padding-top: 8px;
+	}
+
 	.owl-main-1 .owl-theme .owl-nav {
 		margin-top: 160px !important;
 	}
